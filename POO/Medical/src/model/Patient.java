@@ -1,5 +1,7 @@
+package model;
+
 public class Patient extends User {
-//   Atributo
+    //   Atributo
     private String birthday;
     private String blood;
     private double weight;
@@ -7,7 +9,7 @@ public class Patient extends User {
 
 
 
-    Patient(String name, String email){
+    public Patient(String name, String email){
         super(name, email);
     }
 

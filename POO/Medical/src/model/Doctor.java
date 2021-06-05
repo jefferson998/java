@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -17,7 +19,7 @@ public class Doctor extends User{
 
 
 
-    Doctor (String name,String email){
+    public Doctor(String name, String email){
         super(name,email);
         System.out.println("El nobre del doctor asiganado es: "+name);
         this.speciality = speciality;
@@ -25,7 +27,7 @@ public class Doctor extends User{
     }
 
 
-//    colecciones
+    //    colecciones
 //    para utilizar por fuera de la clase padre Doctor.AvailableAppointment
     ArrayList<AvailableAppointment> availableAppointments =new ArrayList<>();
     public void AvailableAppointment(Date date, String time){

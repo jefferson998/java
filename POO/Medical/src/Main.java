@@ -4,18 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Doctor myDoctor = new Doctor("Jefferson Paz");
-        myDoctor.name = "Jefferson";
-        myDoctor.showName();
-        myDoctor.showId();
-        //System.out.println(Doctor.id);
 
-//
-        Doctor MyDoctorJeff = new Doctor();
-        myDoctor.showId();
-        System.out.println(Doctor.id);
+//        showMenu();
+        Doctor myDoctor = new Doctor("Jefferson","forense");
 
-        showMenu();
+        System.out.println(myDoctor.name);
+        System.out.println(myDoctor.speciality);
+        Patient patient = new Patient("Johana","joha@gmail.com");
+        System.out.println(patient.name);
+        System.out.println(patient.email);
+        patient.weight=60.5;
+        patient.height=1.70;
+        System.out.println(patient.weight);
+        System.out.println(patient.height);
+
 
     }
 

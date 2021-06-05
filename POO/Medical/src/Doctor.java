@@ -1,39 +1,29 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor {
-    static int id=0;
-    String name;
-    String email;
-    String speciality;
+public class Doctor extends User{
 
 
-
-
-
-
-    Doctor(){
-        System.out.println("Construyendo el objeto Doctor");
-
+    public String getSpeciality() {
+        return speciality;
     }
 
-    Doctor (String name,String speciality){
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
+
+    //Atributo
+    private String speciality;
+
+
+
+    Doctor (String name,String email){
+        super(name,email);
         System.out.println("El nobre del doctor asiganado es: "+name);
-        id++;
-        this.name = name;
         this.speciality = speciality;
 
     }
-    public void showId(){
-        System.out.println("ID Dorctor: "+id);
-    }
 
-
-    //comportamientos
-
-    public void showName(){
-        System.out.println(name);
-    }
 
 //    colecciones
 //    para utilizar por fuera de la clase padre Doctor.AvailableAppointment
@@ -44,6 +34,11 @@ public class Doctor {
     }
     public ArrayList<AvailableAppointment> getAvailableAppointments(){
         return availableAppointments;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nSpeciality: " + speciality + "\nAvailable: " + availableAppointments.toString();
     }
 
 
@@ -82,6 +77,11 @@ public class Doctor {
 
         public void setTime(String time) {
             this.time = time;
+        }
+
+        @Override
+        public String toString() {
+            return "Available appointments \nDate: " +date +"\nTime: "+time;
         }
 
     }

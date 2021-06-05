@@ -39,7 +39,7 @@ public class Doctor {
 //    para utilizar por fuera de la clase padre Doctor.AvailableAppointment
     ArrayList<AvailableAppointment> availableAppointments =new ArrayList<>();
     public void AvailableAppointment(Date date, String time){
-        availableAppointments.add(new Doctor.AvailableAppointment(date, time));
+        availableAppointments.add(new Doctor.AvailableAppointment(date,time));
 
     }
     public ArrayList<AvailableAppointment> getAvailableAppointments(){

@@ -21,7 +21,7 @@ public class Doctor extends User{
 
     public Doctor(String name, String email){
         super(name,email);
-        System.out.println("El nobre del doctor asiganado es: "+name);
+        System.out.println("El nobre del doctor asignado es: "+name);
         this.speciality = speciality;
 
     }
@@ -41,6 +41,14 @@ public class Doctor extends User{
     @Override
     public String toString() {
         return super.toString() + "\nSpeciality: " + speciality + "\nAvailable: " + availableAppointments.toString();
+    }
+
+    @Override
+    public void showDataUser() {
+        System.out.println("Empleado del Hospital Departamental");
+        System.out.println("Departamento: Psiquiatria");
+
+
     }
 
 

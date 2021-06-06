@@ -1,6 +1,6 @@
 package model;
 
-public class User {
+public abstract class User {
 
 
 
@@ -66,4 +66,6 @@ public class User {
                 "\nAdress: "+address+", Phone: " +phoneNumber;
 
     }
+
+    public abstract void showDataUser();
 }

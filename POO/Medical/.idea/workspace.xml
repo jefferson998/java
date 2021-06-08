@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="4c151368-866e-4e44-8919-c17edd583c08" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="148acba7-f00b-4fce-85e7-45dabc89d27f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Medical/src/Ejercicio.java" afterDir="false" />
-    </list>
->>>>>>> Stashed changes
+    <list default="true" id="4bb59638-4d2d-4576-b6ba-e9fb5322c8c5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,31 +10,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< Updated upstream
-        <option value="Interface" />
-=======
->>>>>>> Stashed changes
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-<<<<<<< Updated upstream
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1tXbHAtKykY2hibzon9oGN8hTLP" />
-=======
-  <component name="ProjectId" id="1tXLEojByDkBNYdWLQjQMWI0d9q" />
+  <component name="ProjectId" id="1tVgI4kmSFEx9paq4h5QW9FYEbN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,46 +26,34 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
-<<<<<<< Updated upstream
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-=======
-    <configuration name="Ejercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio" />
->>>>>>> Stashed changes
-      <module name="POO" />
+      <module name="Medical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< Updated upstream
         <item itemvalue="Application.Main" />
-=======
-        <item itemvalue="Application.Ejercicio" />
->>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< Updated upstream
-      <changelist id="4c151368-866e-4e44-8919-c17edd583c08" name="Default Changelist" comment="" />
-      <created>1622918300251</created>
+      <changelist id="4bb59638-4d2d-4576-b6ba-e9fb5322c8c5" name="Default Changelist" comment="" />
+      <created>1622859591040</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622918300251</updated>
-=======
-      <changelist id="148acba7-f00b-4fce-85e7-45dabc89d27f" name="Default Changelist" comment="" />
-      <created>1622910388955</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1622910388955</updated>
->>>>>>> Stashed changes
+      <updated>1622859591040</updated>
     </task>
     <servers />
   </component>
@@ -101,9 +67,5 @@
         </entry>
       </map>
     </option>
-<<<<<<< Updated upstream
-    <option name="oldMeFiltersMigrated" value="true" />
-=======
->>>>>>> Stashed changes
   </component>
 </project>
